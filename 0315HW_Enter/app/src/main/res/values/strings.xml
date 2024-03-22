@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">0315HW_Enter</string>
+    <string name="input_account">輸入帳號</string>
+    <string name="input_password">輸入密碼</string>
+    <string name="send">登入</string>
+    <string name="show">  </string>
+    <string name="Your_Name">你的名字</string>
+</resources>
