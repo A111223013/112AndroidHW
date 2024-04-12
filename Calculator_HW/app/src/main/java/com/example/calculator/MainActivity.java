@@ -1,6 +1,7 @@
 package com.example.calculator;
 
 import android.os.Bundle;
+import android.os.Debug;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
