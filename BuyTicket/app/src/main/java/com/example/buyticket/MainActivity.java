@@ -144,13 +144,13 @@ public class MainActivity extends AppCompatActivity {
 
         if (rgType.getCheckedRadioButtonId() == R.id.rdbAdult) {
             AllMoney = 500 * Integer.parseInt(TicketNum);
-            txvResult += getResources().getString(R.string.regularticket) + TicketNum + "張\n" + AllMoney + "元";
+            txvResult += getResources().getString(R.string.regularticket) +":"+ TicketNum + "\n" + AllMoney;
         } else if (rgType.getCheckedRadioButtonId() == R.id.rdbChild) {
             AllMoney = 400 * Integer.parseInt(TicketNum);
-            txvResult += getResources().getString(R.string.childticket) + TicketNum + "張\n" + AllMoney + "元";
+            txvResult += getResources().getString(R.string.childticket) +":"+ TicketNum + "\n" + AllMoney;
         } else if (rgType.getCheckedRadioButtonId() == R.id.rdbStudent) {
             AllMoney = 250 * Integer.parseInt(TicketNum); // 使用 250 元作为学生票的价格
-            txvResult += getResources().getString(R.string.studentticket) + TicketNum + "張\n" + AllMoney + "元";
+            txvResult += getResources().getString(R.string.studentticket) +":"+ TicketNum + "\n" + AllMoney;
         }
 
 

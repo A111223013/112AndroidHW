@@ -35,7 +35,7 @@ public class ResultActivity extends AppCompatActivity {
 
 
         String BorG = "性別：" + gender;
-        String message = "您訂購了 " + Tickets + ticketNum + " 張票";
+        String message = "您訂購了 " + Tickets + ticketNum;
         message = BorG + "\n" + message + "\n總金额：" + allMoney + "元";
 
         TextView txvPrint = findViewById(R.id.txvPrint);

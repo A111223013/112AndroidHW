@@ -1,15 +1,17 @@
 <resources>
     <string name="app_name">BuyTicket</string>
-    <string name="male">男生</string>
-    <string name="female">女生</string>
-    <string name="regularticket">全票</string>
-    <string name="childticket">兒童票</string>
-    <string name="studentticket">學生票</string>
-    <string name="Sure">確定</string>
-    <string name="HowMany">購買張數:</string>
-    <string name="MorF">性別:</string>
-    <string name="WhichTicket">票種:</string>
-    <string name="FiveHun">500元</string>
-    <string name="FourHun">400元</string>
-    <string name="TwoFiveHun">250元</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="regularticket">Regula Ticket</string>
+    <string name="childticket">Child Ticket</string>
+    <string name="studentticket">Student Ticket</string>
+    <string name="Sure">Sure</string>
+    <string name="HowMany">Count</string>
+    <string name="MorF">Gender</string>
+    <string name="WhichTicket">TicketType</string>
+    <string name="FiveHun">500</string>
+    <string name="FourHun">400</string>
+    <string name="TwoFiveHun">250</string>
+    <string name="FinalResult">0</string>
+    <string name="Money">dollar</string>
 </resources>
