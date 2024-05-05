@@ -15,4 +15,7 @@
     <string name="TwoFiveHun">250</string>
     <string name="FinalResult">0</string>
     <string name="Money">元</string>
+    <string name="YouBuy">你購買了:</string>
+    <string name="YourGender">性別:</string>
+    <string name="TotalMoney">總金額是:</string>
 </resources>

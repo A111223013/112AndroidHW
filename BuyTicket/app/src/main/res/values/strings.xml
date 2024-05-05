@@ -7,11 +7,14 @@
     <string name="studentticket">Student Ticket</string>
     <string name="Sure">Sure</string>
     <string name="HowMany">Count</string>
-    <string name="MorF">Gender</string>
+    <string name="MorF">Gender :</string>
     <string name="WhichTicket">TicketType</string>
     <string name="FiveHun">500</string>
     <string name="FourHun">400</string>
     <string name="TwoFiveHun">250</string>
     <string name="FinalResult">0</string>
     <string name="Money">dollar</string>
+    <string name="YouBuy">You Buy the :</string>
+    <string name="YourGender">Your gender is :</string>
+    <string name="TotalMoney">Total is :</string>
 </resources>

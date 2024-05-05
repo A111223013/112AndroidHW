@@ -6,13 +6,11 @@ import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class ResultActivity extends AppCompatActivity {
 
 
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
@@ -22,7 +20,7 @@ public class ResultActivity extends AppCompatActivity {
         String ticketNum = intent.getStringExtra("ticketNum");
         String gender = intent.getStringExtra("gender");
         String Tickets = intent.getStringExtra("Tickets");
-        int allMoney = intent.getIntExtra("AllMoney", 0); // 默认值为0
+        int allMoney = intent.getIntExtra("AllMoney",0); // 默认值为0
 
         if (Tickets.equals(getResources().getString(R.string.regularticket))) {
             allMoney = 500*Integer.parseInt(ticketNum);
@@ -32,13 +30,19 @@ public class ResultActivity extends AppCompatActivity {
             allMoney = 250*Integer.parseInt(ticketNum);
         }
 
+        // 根据语言设置获取正确的字符串资源
+        String genderText = getResources().getString(R.string.MorF);
+        String buyText = getResources().getString(R.string.YouBuy);
+        String totalText = getResources().getString(R.string.TotalMoney);
+        String moneyText = getResources().getString(R.string.Money);
 
-
-        String BorG = "性別：" + gender;
-        String message = "您訂購了 " + Tickets + ticketNum;
-        message = BorG + "\n" + message + "\n總金额：" + allMoney + "元";
+        // 根据语言设置拼接要显示的信息
+        String BorG = genderText + gender;
+        String message = buyText + Tickets +":" + ticketNum;
+        message = BorG + "\n" + message + "\n" + totalText + allMoney +"  "+ moneyText;
 
         TextView txvPrint = findViewById(R.id.txvPrint);
         txvPrint.setText(message);
     }
+
 }
