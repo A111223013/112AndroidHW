@@ -40,9 +40,13 @@ public class MainActivity extends AppCompatActivity {
         CheckBox chk5 = (CheckBox) findViewById(R.id.chk5);
 
         TextView showOrder =(TextView)findViewById(R.id.showOrder);
+
+
         chk1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+
+
                 if(isChecked)
                 {
                     showOrder.setText("您點的餐點如下");
@@ -50,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    output1.setVisibility(ImageView.INVISIBLE);
+                    output1.setVisibility(ImageView.GONE);
                 }
             }
         });
@@ -64,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    output2.setVisibility(ImageView.INVISIBLE);
+                    output2.setVisibility(ImageView.GONE);
                 }
             }
         });
@@ -78,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    output3.setVisibility(ImageView.INVISIBLE);
+                    output3.setVisibility(ImageView.GONE);
                 }
             }
         });
@@ -92,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    output4.setVisibility(ImageView.INVISIBLE);
+                    output4.setVisibility(ImageView.GONE);
                 }
             }
         });
@@ -106,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    output5.setVisibility(ImageView.INVISIBLE);
+                    output5.setVisibility(ImageView.GONE);
                 }
             }
         });

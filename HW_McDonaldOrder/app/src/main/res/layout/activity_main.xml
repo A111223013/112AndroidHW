@@ -177,7 +177,7 @@
             app:srcCompat="@mipmap/burger"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="197dp"
-            android:visibility="invisible"/>
+            android:visibility="gone"/>
 
         <ImageView
             android:id="@+id/output2"
@@ -187,7 +187,7 @@
             app:srcCompat="@mipmap/coffee"
             tools:layout_editor_absoluteX="76dp"
             tools:layout_editor_absoluteY="197dp"
-            android:visibility="invisible"/>
+            android:visibility="gone"/>
 
         <ImageView
             android:id="@+id/output3"
@@ -197,7 +197,7 @@
             app:srcCompat="@mipmap/frenchfry"
             tools:layout_editor_absoluteX="136dp"
             tools:layout_editor_absoluteY="197dp"
-            android:visibility="invisible"/>
+            android:visibility="gone"/>
 
         <ImageView
             android:id="@+id/output4"
@@ -207,7 +207,7 @@
             app:srcCompat="@mipmap/softdrink"
             tools:layout_editor_absoluteX="196dp"
             tools:layout_editor_absoluteY="197dp"
-            android:visibility="invisible"/>
+            android:visibility="gone"/>
 
         <ImageView
             android:id="@+id/output5"
@@ -217,7 +217,7 @@
             app:srcCompat="@mipmap/soup"
             tools:layout_editor_absoluteX="196dp"
             tools:layout_editor_absoluteY="197dp"
-            android:visibility="invisible"/>
+            android:visibility="gone"/>
 
     </LinearLayout>
 
