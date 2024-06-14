@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SpandLv-0517hw</string>
+    <string name="app_name">SpanLv</string>
     <string-array name="mainfood">
         <item>主餐</item>
         <item>附餐</item>
